@@ -11,6 +11,6 @@
         public virtual Category Category { get; set; }
         public virtual User User { get; set; }
         public virtual IEnumerable<User> AssignedUser { get; set; }
-        public virtual Author Author { get; set; }
+        public IEnumerable <Author> Author { get; set; }
     }
 }
